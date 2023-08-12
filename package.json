@@ -1,5 +1,6 @@
 {
   "name": "fitness_app",
+  "homepage": "https://Prachi-2001.github.io/Fitness-App",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,15 +8,18 @@
     "@emotion/styled": "^11.8.1",
     "@mui/icons-material": "^5.6.1",
     "@mui/material": "^5.6.1",
+    "nvm": "^0.0.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-horizontal-scrolling-menu": "^2.7.1",
-    "react-loader-spinner": "^6.0.0-0",
+    "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -44,6 +48,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.4.0"
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "gh-pages": "^6.0.0"
   }
 }
